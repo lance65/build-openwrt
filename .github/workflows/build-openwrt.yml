@@ -35,6 +35,11 @@ on:
 #  watch:
 #    types: started
 
+  
+#release发布触发开始编译(只是一个触发条件,不会发布的,又麻烦,没卵用,不用研究)
+  release:
+    types: published
+
 
 env: 
   REPO_TOKEN: ${{ secrets.REPO_TOKEN }}
